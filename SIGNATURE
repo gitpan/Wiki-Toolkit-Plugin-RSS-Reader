@@ -1,0 +1,31 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.44.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 61244c442b685ba429220943446a3f54b6fd9358 Build.PL
+SHA1 fc54c30c6e4525088f045e20e0dce3343dee02a5 CHANGES
+SHA1 b97098d27809b2f51fbdfddbe8dd194b29c110df MANIFEST
+SHA1 047169b7f2c5fda79e63b111de28ee9a804daff0 META.yml
+SHA1 9fac6f034ce9889fcc0916351df871264de7b8f8 Makefile.PL
+SHA1 cb46d19e200ef909ef4d73cad2e5de37fd10a613 README
+SHA1 367d1b00a096c6f5243af458871f5735754e3b26 lib/Wiki/Toolkit/Plugin/RSS/Reader.pm
+SHA1 544efd65de359ab3f2aabcf1523cc3869d066fd9 t/rss.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.1 (GNU/Linux)
+
+iD8DBQFEZxZIYzuFKFF44qURAliDAKDOk7Q0kDuaWGAwTINp/MBoqUbwXACg6rPj
+qYdOF8mKfnjfsOUicq/bDTM=
+=7hOl
+-----END PGP SIGNATURE-----

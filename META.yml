@@ -1,0 +1,17 @@
+---
+name: Wiki-Toolkit-Plugin-RSS-Reader
+version: 1.5
+author:
+  - |-
+    Earle Martin (EMARTIN@cpan.org)
+    The Wiki::Toolkit team, (http://www.wiki-toolkit.org/)
+abstract: retrieve RSS feeds for inclusion in Wiki::Toolkit nodes
+license: perl
+requires:
+  LWP::Simple: 0
+  XML::RSS: 0
+provides:
+  Wiki::Toolkit::Plugin::RSS::Reader:
+    file: lib/Wiki/Toolkit/Plugin/RSS/Reader.pm
+    version: 1.5
+generated_by: Module::Build version 0.26
