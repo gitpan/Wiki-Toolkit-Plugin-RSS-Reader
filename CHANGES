@@ -1,3 +1,7 @@
+2008-12-12: 1.6
+            * Ensure that the unit test cleans up its temporary file
+              (RT #41500; thanks ANDK)
+
 2006-05-14: 1.5
             * Move to Wiki::Toolkit name.
 

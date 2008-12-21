@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use vars qw( $VERSION @ISA );
 
-$VERSION = '1.5';
+$VERSION = '1.6';
 @ISA = qw(Wiki::Toolkit::Plugin);
 
 use Carp qw(croak);

@@ -56,8 +56,11 @@ use Test::More tests => 9;
 # Create a temporary file, fill it with the RSS we defined
 # earlier in the fake LWP::Simple.
 
-use File::Temp qw(tempfile);
-my ($tmp, $rss_file) = tempfile();
+use File::Temp;
+# Use OO version of File::Temp; file will be unlinked when $tmp goes
+# out of scope
+my $tmp = new File::Temp;
+my $rss_file = $tmp->filename;
 print $tmp $LWP::Simple::RSS;
 close $tmp;
 
